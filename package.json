@@ -1,5 +1,5 @@
 {
-  "home":"https://Manish342900.github.io/FoodRecipe",
+  "homepage": "https://Manish342900.github.io/FoodRecipe",
   "name": "recipe",
   "version": "0.1.0",
   "private": true,
@@ -11,7 +11,7 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "deploy": "gh-pages -d build",  
+    "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.3.0"
   }
 }

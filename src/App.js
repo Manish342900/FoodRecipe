@@ -12,7 +12,7 @@ function App() {
       <div className='min-h-screen p-6 bg-white text-gray-600 text-lg '>
         <Navbar/>
         <Routes>
-          <Route path='/FoodRecipe' element={<Home/>}></Route>
+          <Route path='/' element={<Home/>}></Route>
           <Route path='/favorites' element={<Faviourate/>} ></Route>
           <Route path='/recipe-items/:id' element={<Details/>}></Route>
         </Routes>
