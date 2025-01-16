@@ -9,7 +9,7 @@ import GlobalState, { GlobalContext } from './Context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/FoodRecipe">
     <React.StrictMode>
       <GlobalState>
         <App />
