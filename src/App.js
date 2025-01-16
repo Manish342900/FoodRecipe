@@ -13,8 +13,8 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path='/' element={<Home/>}></Route>
-          <Route path='/favorites' element={<Faviourate/>} ></Route>
           <Route path='/recipe-items/:id' element={<Details/>}></Route>
+          <Route path='/favorites' element={<Faviourate/>} ></Route>
         </Routes>
 
       </div>
